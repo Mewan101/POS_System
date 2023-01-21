@@ -1,0 +1,80 @@
+section>section div.same{
+    background: #1d3649;
+    color: #d3c3c3;
+    margin: 10px;
+    border-radius: 10px;
+    height: 40vh;
+    position: relative;
+
+
+}
+
+section>section div>i{
+    font-size: 50px;
+    width: max-content;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 20%;
+    margin: auto;
+
+}
+section>section div>p{
+    width: max-content;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 40%;
+    margin: auto;
+}
+section>section div>span{
+    font-size: 30px;
+    width: max-content;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    margin: auto;
+
+}
+
+body>section{
+    display: flex;
+}
+
+body>main>section:first-child{
+    display: flex;
+}
+
+
+
+section>section>div:first-child{
+    display: flex;
+}
+
+section>section{
+    width: 100%;
+}
+
+section>section>div:first-child>div{
+    width: 100%;
+
+}
+
+#fourSearchbar,#customfourSearchbar{
+    width: 50%;
+    margin: 1%;
+
+}
+
+#itemManagePart,#customManagePart{
+    width: 40%;
+    box-shadow: -10px 7px 10px 1px #e3e2e2;
+    margin: 5%;
+    padding: 10px;
+}
+
+
+#tableContener,#customtableContener{
+    padding: 10px;
+}
